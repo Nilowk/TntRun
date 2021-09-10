@@ -1,0 +1,33 @@
+spawn:
+  x: 0.5
+  y: 110.0
+  z: 0.5
+
+message:
+  nogame:
+    join: "a rejoint la partie"
+    quit: "a quitter la partie"
+  start:
+    before: "§6La partie commence dans"
+    after: "secondes"
+  break: "§4ATTENTION, les bloques sous vos pieds se cassent"
+  game:
+    join: "a rejoint et regarde la partie"
+    quit: "a quitter et ne regarde plus la partie"
+
+start:
+  maxplayer: 6
+  minplayer: 2
+
+title:
+  noplayer:
+    title: "§4La partie a été annulé"
+    subtitle: "§4Raison : Manque de joueurs"
+  start: "§6La partie commence"
+
+timer:
+  start: 15
+  #breakTime || 20 = 1s
+  breaktime: 10
+  nobreak: 5
+  finish_time: 15
